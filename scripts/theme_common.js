@@ -1,3 +1,4 @@
+        // 控制音频的不要改动
         var audio_music=document.getElementById('audio_music'); 
         var audio_record=document.getElementById('audio_record'); 
         

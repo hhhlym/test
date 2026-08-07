@@ -2,15 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>琳琪同学</title>
+  <title>标题页可改</title>
   <meta name="language" content="zh-CN">
-  <meta name="title" content="小孙同学">
+  <meta name="title" content="。">
   <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
   <meta name="describe" content="">
   <link rel="icon" type="image/x-icon" href="https://cdn.jsdelivr.net/gh/sun0225SUN/photos/img/20210715233345.png">
   <link type="text/css" rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="photo.css">
   <script src="scripts/jquery-2.0.3.min.js"></script>
 <style>
+
+  /* 方块盒css代码 */
   *{
             padding:0px;
             margin:0px;
@@ -184,17 +187,18 @@
             transform: rotateY(-90deg) translateZ(200px);
         }
 </style>
-
 </head>
+
 
 <body>
 
-  <div id="div_container">
+  <div id="div_container">    
+    <!--方块盒html代码-->
     <!-- 最外层div，用于居中兼容PC和移动 -->
     <div class="container2">
         <div class="wrap">
             <div class="cube">
-                <div class="out-front">
+                 <div class="out-front">   <!--下面六个是控制盒子外部图片 -->
                     <img src="图片/4.png" alt="">
                 </div>
                 <div class="out-back">
@@ -214,28 +218,32 @@
                 </div>
 
 
-                <span class="in-front">
-                    <img src="图片/777.jpg" alt="">
+                <span class="in-front">     <!--下面六个是盒子内部图片-->
+                    <img src="图片/1.jpg" alt="">
                 </span>
                 <span class="in-back">
-                    <img src="图片/777.jpg" alt="">
+                    <img src="图片/1.jpg" alt="">
                 </span>
                 <span class="in-left">
-                    <img src="图片/777.jpg" alt="">
+                    <img src="图片/1.jpg" alt="">
                 </span>
                 <span class="in-right">
-                    <img src="图片/777.jpg" alt="">
+                    <img src="图片/1.jpg" alt="">
                 </span>
                 <span class="in-top">
-                    <img src="图片/777.jpg" alt="">
+                    <img src="图片/1.jpg" alt="">
                 </span>
                 <span class="in-bottom">
-                    <img src="图片/777.jpg" alt="">
+                    <img src="图片/1.jpg" alt="">
                 </span>
             </div>
         </div>
     </div>
 
+     
+
+
+    <!-- 展示页内容页 -->
     <div id="div_start_bg"></div>
     <div id="div_onlyyou">
       <!-- 用于设置背景 -->
@@ -275,10 +283,12 @@
           <li onclick="oy_go_next()">Yes&nbsp;&nbsp;❤</li>
           <li onclick="oy_show_benefit()">No&nbsp;&nbsp;✖</li>
         </ul>
+        <!-- 多次被拒绝后触发 -->
         <div id="div_oy_note" onclick="oy_hide_note()">
           <img src="图片/emoji_kelian.jpg" alt="" /><br />请告诉我Yes！
           <div id="div_oy_note_close">✖</div>
         </div>
+        <!-- 同意后触发 -->
         <div id="div_oy_yes">
           <img src="图片/3.jpg" alt="" /><br />太好了！嘿嘿嘿~
         </div>
@@ -295,27 +305,117 @@
     <div id="div_btn_container">
       <div id="div_btn_inner">
 
-        <div class="div_music_tips"></div>
+        <!-- <div class="div_music_tips"></div>
         <div class="div_btn" id="div_music" onclick="music_switch()">
-          <!-- 音乐按钮部分 -->
-          <img id="img_music" src="图片/music_note_big.png"
-            style="-webkit-animation: music_play_rotate 1s linear infinite;" />放歌  
-          <!-- 您的浏览器不支持播放音乐 -->
+          音乐按钮部分
+           音乐播放键图
+          <img id="img_music" src="图片/music_note_big.png"   
+            style="-webkit-animation: music_play_rotate 1s linear infinite;" />
+           您的浏览器不支持播放音乐
           <audio id="audio_music" autoplay="autoplay" loop="loop">
             <source type="audio/mpeg" />
           </audio>
-        </div>
+        </div> 
         <div class="div_record_tips"></div>
         <div class="div_btn" id="div_record" onclick="record_switch()">
           <audio id="audio_record" loop="loop">
             <source type="audio/mpeg" />
           </audio>
-        </div>
+        </div> -->
 
       </div>
     </div>
   </div>
+
+     <div class="click_me_shell" id="click_me_shell">
+        <audio loop src="444.mp3" id="audio" autoplay preload="auto"></audio>
+        <button class="click_me">点我</button>
+    </div>
+
+    <div id="dragBox">
+        <div class="spinBox" id="spinBox">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+           
+        </div>
+        <div class="spinBox" id="spinBox2">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+        </div>
+        <div class="spinBox" id="spinBox3">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+            <img src="图片/1.jpg">
+            <img src="图片/4.png">
+            <img src="图片/6.png">
+            <img src="图片/2.jpg">
+        </div>
+    </div>
 <script>
+
+  //显示页的js效果
     //判断客户端设备，选择写入meta
     function init_viewport() {
       if (navigator.userAgent.indexOf("Android") != -1) {
@@ -353,15 +453,18 @@
     }
     init_viewport();
 
+    //同意后页面跳转
     var theme = "pure_words";
     console.log("theme ->" + theme);
     var theme_content = {
+
+      // 跳转页后自动打字内容
       pure_words_content:
         "遇见你，是我所有美好故事的开始，看见你的第一眼，上帝就在我耳边说了四个字，在劫难逃!\n你的过去我来不及参与，你的未来我一定奉陪到底！\n我爱你！<um style='color: #F44336;'>💕</um>",
       typed_bool: "typed_y",
       cursor_char: "cursor_heart",
       bg_style_pure_words: "bg_opacity",
-      bg_img: "图片/7.jpg",
+      bg_img: "",   //跳转后的背景图片
       simple_page_content: "",
       video_page_content: "",
     };
@@ -370,7 +473,7 @@
     var music_json = {
       music_select: "m_online",
       m_online_id: "7",
-      m_online_url: "444.mp3",
+      m_online_url: "444.mp3",     //音乐文件
       m_upload_name: "null",
       m_upload_url: "null",
     };
@@ -498,7 +601,8 @@
     }
     var start_content = {
       chase_title:
-        "做我女朋友好不好<um style='color: #F44336;'>！</um>",
+        //显示页被拒绝后的文字展示  可改文字内容。。。
+        "xxx好不好<um style='color: #F44336;'>！</um>",
       chase_text:
         "承蒙你的出现，够我喜欢一辈子，我希望，以后你能用我的名字拒绝所有人<um style='color: #F44336;'>💕</um>",
       chase_benefit: [
@@ -510,9 +614,9 @@
         "你是我穷极一生不想醒来的梦",
       ],
       bg_style: "bg_custom",
-      bg_img: "图片/7.jpg",
+      bg_img: "图片/7.jpg",    //跳转前显示页的背景图片
       img_bool: "img_true",
-      img_src: "图片/6.jpg",
+      img_src: "图片/5.jpg",  //显示页首图片
     }; //可能为null
     console.log(start_content);
     var start_id;
@@ -581,6 +685,7 @@
   <script src="scripts/start_onlyyou.js"></script>
   <script src="scripts/jweixin-1.2.0.js"></script>
   <script src="scripts/theme_common.js"></script>
+  <script src="photo.js"></script>
 </body>
 
 </html>

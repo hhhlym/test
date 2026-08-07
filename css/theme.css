@@ -1,11 +1,13 @@
-﻿*{-webkit-box-sizing:border-box;margin:0;padding:0;}
+﻿/* 展示页css样式内容 可改动 */
+*{-webkit-box-sizing:border-box;margin:0;padding:0;}
 body{background-color:#474747;}
 a{color:#767676;text-decoration:none;}
 #div_container{position:relative;margin:0 auto;width:500px;font-size:1em;}
 .div_pure_words{position:relative;display:none;}
 .div_pure_words_bg{width:500px;min-height:500px;background-size:100%;background-repeat:repeat;background-attachment:fixed;}
 .div_pure_words_height{visibility:hidden;padding:30px;color:#fff;text-align:justify;white-space:pre-wrap;font-size:1.1em;font-family:"Microsoft YaHei",Arial;}
-.div_pw_typed{position:absolute;top:0;right:0;bottom:0;left:0;padding:30px;width:500px;background:rgba(174, 127, 127, 0.8);text-align:justify;}
+/* 这条改背景色 */
+.div_pw_typed{position:absolute;top:0;right:0;bottom:0;left:0;padding:30px;width:500px;background:rgba(0, 0, 0, 0);text-align:justify;color: #00b6ff;}
 #span_pw_typed{width:100%;white-space:pre-wrap;font-size:1.1em;font-family:"Microsoft YaHei",Arial;}
 #div_start_bg{position:absolute;top:0;left:0;z-index:44;width:100%;height:100%;background-color:#fff;}
 

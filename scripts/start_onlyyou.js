@@ -1,5 +1,4 @@
-
-
+//看不懂就尽量不要改
         function init_onlyyou(){
             // 初始化两个div的高度
             $("#div_onlyyou").css({"height":$(window).height()+260+"px"});
